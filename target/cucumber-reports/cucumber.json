@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Scrape page",
+        "description": "",
+        "id": "cryptocompare-example;scrape-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9442201206,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user opens the target page",
+            "match": {
+              "location": "ExampleStepDefs.userOpensPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42697741043,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user scrapes the page",
+            "match": {
+              "location": "ExampleStepDefs.userScrapesThePage()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Cryptocompare example",
+    "description": "",
+    "id": "cryptocompare-example",
+    "keyword": "Feature",
+    "uri": "example.feature"
+  }
+]
